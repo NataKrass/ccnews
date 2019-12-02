@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">     
+	<title>CCnews24</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+    <!-- Favicon -->
+    
+	<link rel="icon" href="/assets/img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/img/favicon.png" type="image/x-icon">
+	<!-- OG Tags -->
+    <meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="img/">
+	<meta property="og:site_name" content="">
+	<!-- Fonts -->
+	<!-- Styles -->
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,500,600,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header__searchbar">
+                        <div class="header__searchbar__container">
+                            <form action="https://ccnews24.net/search" method="get" class="d-flex">
+                                <input class="header__searchbar__container__input" id="search" type="search" required="" name="q" placeholder="Search…" autocomplete="off">
+                                <label class="header__searchbar__container__close material-button material-button--icon ripple has-ripple" for="search">
+                                    <i class="material-icons"></i>
+                                </label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__appbar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="header__appbar--left d-flex">
+                            <div class="header__appbar--left__logo">
+                                <a href="/"><img class="site-logo" src="assets/img/logo.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__appbar--left__menu">
+                                <ul class="header__appbar--left__menu__list">
+                                    <li class="header__appbar--left__menu__list__item"><a href="/hot-news" class="ripple has-ripple" data-type="1">HOT news</a></li>
+                                    <li class="header__appbar--left__menu__list__item"><a href="/ico" class="ripple has-ripple" data-type="19">ICO news</a></li>
+                                    <li class="header__appbar--left__menu__list__item"><a href="/tech" class="ripple has-ripple" data-type="18">Tech</a></li>
+                                    <li class="header__appbar--left__menu__list__item"><a href="/regulatory" class="ripple has-ripple" data-type="16">Regulatory info</a></li>
+                                    <li class="header__appbar--left__menu__list__item"><a href="/events" class="ripple has-ripple" data-type="39">Events</a></li>
+                                    <li class="header__appbar--left__menu__list__item">
+                                        <a class="category-dropdown-button ripple has-dropdown has-ripple" href="javascript:" data-target="category-dropdown" data-align="center">
+                                            <i class="material-icons"></i>
+                                        </a>
+                                        <div class="category-dropdown dropdown-container">
+                                            <div class="category-dropdown_sec sec_cat1 clearfix">
+                                                <div class="category-dropdown_community">
+                                                    <div class="community_title">Hey CCnews24 Community!
+                                                    </div>
+                                                    <div class="community_desc">   
+                                                        <a href="/login">Log in</a> or 
+                                                        <a href="/register">sign up</a> to create your own posts.
+                                                    </div>
+                                                </div>
+                                                <div class="reaction-emojis">
+                                                    <a href="/reactions/bullish" title="Bullish"><img alt="Bullish" src="assets/img/bullish " width="42"></a>
+                                                    <a href="/reactions/bearish" title="Bearish"><img alt="Bearish" src="assets/img/bearish.png " width="42"></a>
+                                                    <a href="/reactions/like" title="Like"><img alt="Like" src="assets/img/5a7b45263bf58-thumbup.png " width="42"></a>
+                                                    <a href="/reactions/dislike" title="Dislike"><img alt="Dislike" src="assets/img/thumbdown.png " width="42"></a>
+                                                    <a href="/reactions/lol" title="LOL"><img alt="LOL" src="assets/img/lol.png " width="42"></a>
+                                                    <a href="/reactions/hooray" title="Hooray"><img alt="Hooray" src="assets/img/horn.png " width="42"></a>
+                                                    <a href="/reactions/attention" title="Attention"><img alt="Attention" src="assets/img/attention.png " width="42"></a>
+                                                </div>
+                                            </div>
+                                            <div class="category-dropdown_sec sec_cat2 clearfix">
+                                                <ul class="d-flex sec_cat2-list">
+                                                    <li class="dropdown-container__item ripple has-ripple" style="float:left;width:25%">
+                                                        <a href="/ico-passport" title="ICO passport">ICO passport </a>
+                                                    </li>
+                                                    <li class="dropdown-container__item ripple has-ripple" style="float:left;width:25%">
+                                                        <a href="/live-icos" title="Live ICOs">Live ICOs </a>
+                                                    </li>
+                                                    <li class="dropdown-container__item ripple has-ripple" style="float:left;width:25%">
+                                                        <a href="/upcoming-icos" title="Upcoming ICOs">Upcoming ICOs </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="category-dropdown_sec sec_cat3 clearfix">
+                                                <img class="footer-site-logo" src="/assets/img/logo.png" width="60px" alt="">
+                                                <div class="language-links hor">
+                                                    <a class="button button-white" href="javascript:">
+                                                        <i class="material-icons"></i> <b>English</b>
+                                                    </a>
+                                                <ul class="sub-nav ">
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/en" class="sub-item">English</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/tr" class="sub-item">Türkçe</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/ru" class="sub-item">Русский</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/it" class="sub-item">Italiano</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/es" class="sub-item">Español</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/nl" class="sub-item">Dutch</a>
+                                                        </li>
+                                                                                                                <li>
+                                                            <a href="https://ccnews24.net/selectlanguge/ar" class="sub-item">لعربية</a>
+                                                        </li>
+                                                </ul>
+                                            </div>
+                                    
+                                            <div class="footer-left">
+                                                <div class="footer-menu clearfix">
+                                                    <a class="footer-menu__item " href="https://ccnews24.net/pages/editorial-board" title="Editorial board">Editorial board
+                                                    </a>
+                                                    <a class="footer-menu__item" href="https://ccnews24.net/contact">Contact</a>
+                                                </div>
+                                            <div class="footer-copyright clearfix">
+                                                Copyright © 2019 CCnews24. All rights reserved.
+                                            </div>
+                                        </div>
+                                        </div>
+                                        
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="header__appbar--right">
+                            <div class="header__appbar--right__search">
+                                <div class="header__appbar--right__search__button material-button material-button--icon ripple has-ripple">
+                                    <i class="material-icons"></i>
+                                </div>
+                            </div>
+                            <a href="#" class="header__appbar--right_create header__appbar--right_btn">Create</a>
+                            <a href="#" class="header__appbar--right_entry header__appbar--right_btn">Entry</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> 
+    <section class="slider">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-slider">
+                        <div class="slide d-flex">
+                            <div class="slide-img">
+                                <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1.png">
+                            </div>
+                           <div class="slide-text d-flex">
+                                <a href="#" target="_blank">Bitcoin (BTC)</a>
+                                <span style="font-size: 16px;">7&nbsp;387,00 USD
+                                  <span style="color:#d94040">(-2,96%)</span>
+                                </span> 
+                           </div>                  
+                        </div>
+                        <div class="slide d-flex">
+                            <div class="slide-img">
+                                <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/2.png">
+                            </div>
+                            <div class="slide-text d-flex">
+                                <a href="#" target="_blank">Litecoin (lTC)</a>
+                                <span style="font-size: 16px;">47,60 USD
+                                    <span style="color:#d94040">(-2,96%)</span>
+                                </span> 
+                            </div>                  
+                        </div>
+                        <div class="slide d-flex">
+                                <div class="slide-img">
+                                    <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/328.png">
+                                </div>
+                                <div class="slide-text d-flex">
+                                    <a href="#" target="_blank">Monero (XMR)</a>
+                                    <span style="font-size: 16px;">53,32 USD
+                                        <span style="color:#d94040">(-2,69%)</span>
+                                    </span> 
+                                </div>                  
+                        </div>
+                        <div class="slide d-flex">
+                            <div class="slide-img">
+                                 <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png">
+                            </div>
+                            <div class="slide-text d-flex">
+                                <a href="#" target="_blank">Ethereum (ETH) </a>
+                                 <span style="font-size: 16px;">150,78 USD
+                                    <span style="color:#d94040">(-1,96%)</span>
+                                </span> 
+                            </div>                  
+                        </div>
+                        <div class="slide d-flex">
+                            <div class="slide-img">
+                                <img src="https://s2.coinmarketcap.com/static/img/coins/64x64/328.png">
+                            </div>
+                            <div class="slide-text d-flex">
+                                <a href="#" target="_blank">Monero (XMR)</a>
+                                <span style="font-size: 16px;">53,32 USD
+                                    <span style="color:#d94040">(-2,69%)</span>
+                                </span> 
+                            </div>                  
+                        </div>
+                        
+                    </div>
+                    <i class="headline-articles__navigation headline-articles__navigation--prev headline-slider__navigation headline-slider__navigation--prev material-icons"></i>
+                        <i class="headline-articles__navigation headline-articles__navigation--next headline-slider__navigation headline-slider__navigation--next material-icons"></i>
+                </div>
+            </div>
+            <hr class="slider-hr">
+        </div>
+    </section> 
+    <section class="main-content">
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-9">
+                            <div class="post-box d-flex">
+                                <a href="#" class="post-box_img">
+                                    <img alt="#" src="https://ccnews24.net/upload/media/posts/2019-08/17/88117085044d929acec7ba8e91545620_1566038429-s.jpg">
+                                </a>
+                                <div class="post-box_text">
+                                    <p class="post-box_cat d-flex">
+                                        <a href="https://ccnews24.net/hot-news"> HOT NEWS</a> 
+                                        <span class="has-dropdown share-dropdown" data-target="share-dropdown--315" data-align="right-bottom"><i class="material-icons"></i></span>
+                                    </p>
+                                    <a href="#" class="post-box_title">
+                                        <h2>
+                                          A Complex Crypto Environment Simplified
+                                        </h2>
+                                    </a>
+                                    <hr class="post-hr">
+                                    <div class="post-box_date d-flex">
+                                            17 Aug, 10:29 AM
+                                            <a class="author-link" href="https://ccnews24.net/profile/todd" title="Todd">@ Todd</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-box d-flex">
+                                    <a href="#" class="post-box_img">
+                                        <img alt="#" src="https://ccnews24.net/upload/media/posts/2019-08/09/3e088cfd190a7fc7f02b77c6d06327ed_1565345911-s.jpg">
+                                    </a>
+                                    <div class="post-box_text">
+                                        <p class="post-box_cat d-flex">
+                                            <a href="https://ccnews24.net/hot-news"> HOT NEWS</a> 
+                                            <span class="has-dropdown share-dropdown" data-target="share-dropdown--315" data-align="right-bottom"><i class="material-icons"></i></span>
+                                        </p>
+                                        <a href="#" class="post-box_title">
+                                            <h2>
+                                                    The New Kid On The Blockchain
+                                            </h2>
+                                        </a>
+                                        <hr class="post-hr">
+                                        <div class="post-box_date d-flex">
+                                                17 Aug, 10:29 AM
+                                                <a class="author-link" href="https://ccnews24.net/profile/todd" title="Todd">@ Todd</a>
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="post-box d-flex">
+                                    <a href="#" class="post-box_img">
+                                        <img alt="#" src="https://ccnews24.net/upload/media/posts/2019-06/10/d064622e80bf268eaf01212e0a6b6053_1560173155-s.jpg">
+                                    </a>
+                                    <div class="post-box_text">
+                                        <p class="post-box_cat d-flex">
+                                            <a href="https://ccnews24.net/hot-news"> HOT NEWS</a> 
+                                            <span class="has-dropdown share-dropdown" data-target="share-dropdown--315" data-align="right-bottom"><i class="material-icons"></i></span>
+                                        </p>
+                                        <a href="#" class="post-box_title">
+                                            <h2>
+                                                    Trade Wars: Impact on the Blockchain and Crypto Industry
+                                            </h2>
+                                        </a>
+                                        <hr class="post-hr">
+                                        <div class="post-box_date d-flex">
+                                                17 Aug, 10:29 AM
+                                                <a class="author-link" href="https://ccnews24.net/profile/todd" title="Todd">@ Todd</a>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <aside class="sidebar">
+                                <div class="sidebar-box">
+                                        <h2>ICO passport</h2>
+                                </div>
+            
+                            </aside>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+    <script src="assets/js/main.js"></script>    
+</body>
+</html>
